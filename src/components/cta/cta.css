@@ -1,0 +1,46 @@
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem;
+    background-image: var(--gradient-bar);
+    font-family: var(--font-family);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.cta__texts p {
+    margin-bottom: 1rem;
+}
+
+.cta__btn {
+    width: 150px;
+    height: 40px;    
+}
+
+.cta__btn button {
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+}
+
+@media  screen and (max-width: 650px) {
+    .cta {
+        flex-direction: column;
+    }
+
+    .cta__texts {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media  screen and (max-width: 550px) {
+    .cta {
+        margin: 2rem;
+        padding: 1rem;
+    }
+}

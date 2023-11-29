@@ -1,0 +1,36 @@
+.whatGPT3 {
+    font-family: var(--font-family);
+    padding: 2rem;
+}
+
+.whatGPT3__bar {
+    height: 3px;
+    width: 30px;
+    background-image: var(--gradient-bar);
+    margin: 0 0 .5rem 0;
+}
+
+.whatGPT3__contents {
+    display: flex;
+}
+
+.whatGPT3__title {
+    flex: 2;
+    color: #ffffff;
+    margin: 0 0 2rem 0;
+}
+
+.whatGPT3__title h4 {
+    color: #ffffff;
+}
+
+.whatGPT3__desc {
+    flex: 5;
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 700px) {
+    .whatGPT3__contents {
+        flex-direction: column;
+    }
+}

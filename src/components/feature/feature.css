@@ -1,0 +1,28 @@
+.feature {
+    font-family: var(--font-family);
+    padding: 2rem;
+}
+
+.feature__contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature__bar {
+    background-image: var(--gradient-bar);
+    height: 3px;
+    width: 30px;
+    margin: 0 0 .5rem 0;
+}
+
+.feature__title {
+    margin: 0 0 2rem 0;
+}
+
+.feature__title h4 {
+    color: #ffffff;
+}
+
+.feature__desc {
+    color: var(--color-text);
+}

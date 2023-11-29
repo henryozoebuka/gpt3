@@ -1,0 +1,25 @@
+.cta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    margin: 2rem;
+    text-align: center;
+}
+
+.cta2 h2 {
+    -webkit-background-image: var(--gradient-text);
+    background-image: var(--gradient-text);
+    background-clip: text;
+    color: transparent;
+    margin: 2rem 0;
+}
+
+.cta2 button {
+    background-color: transparent;
+    border: 0.5px solid #81AFDD;
+    padding: 10px 15px;
+    color: #81AFDD;
+    cursor: pointer;
+}
