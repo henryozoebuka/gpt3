@@ -24,7 +24,7 @@
 }
 
 .blog__blogs__main {
-    height: 550px;
+    height: 580px;
 }
 
 .blog__blogs__main__blog1 {
@@ -43,7 +43,7 @@
 }
 
 .blog__blogs__main__blog1 .read {
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 
 .blog__blogs__main__blog1 img {
@@ -56,7 +56,7 @@
     grid-template-rows: repeat(2, 48.2%);
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    height: 550px;
+    height: 580px;
 }
 
 .blog__blogs__others > div {
@@ -73,6 +73,12 @@
 
 .blog__blogs__others h3 {
     margin: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .blog__blogs__main__blog1 .read {
+        margin-top: 8rem;
+    }
 }
 
 
