@@ -10,6 +10,10 @@ const Navbar = () => {
     const openBtn = $("#open-btn");
     const closeBtn = $("#close-btn");
 
+    $(document).on("scroll", ()=>{
+      $(".navbar__links__mobile").slideUp();
+    });
+
     openBtn.on('click', ()=>{
       $(".navbar__links__mobile").slideDown();
     });

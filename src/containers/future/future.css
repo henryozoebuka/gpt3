@@ -10,6 +10,10 @@
     width: 45%;
 }
 
+.future__section-a{
+    margin-bottom: 2rem;
+}
+
 .future__section-a__title {
     color: transparent;
     background-clip: text;
@@ -51,6 +55,7 @@
     background-image: var(--gradient-bar);
     width: 30px;
     height: 3px;
+    margin-bottom: .5rem;
 }
 
 @media screen and (max-width: 700px) {
