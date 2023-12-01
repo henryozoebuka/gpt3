@@ -127,3 +127,10 @@
         display: none;
     }
 }
+
+
+@media screen and (min-width: 500px) {
+    .navbar__links__mobile .navbar__links__sign {
+        display: none;
+    }
+}
