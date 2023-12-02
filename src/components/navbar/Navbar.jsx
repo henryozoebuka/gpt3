@@ -10,7 +10,7 @@ const Navbar = () => {
     const openBtn = $("#open-btn");
     const closeBtn = $("#close-btn");
 
-    $(document).on("scroll", ()=>{
+    $(".navbar__links__text").on("click", ()=>{
       $(".navbar__links__mobile").slideUp();
     });
 
@@ -38,10 +38,10 @@ const Navbar = () => {
         </div>
         <div className='navbar__links__sign'>
           <div className='navbar__links__sign-in'>
-            <a href="/">Sign in</a>
+            <a href="#home">Sign in</a>
           </div>
           <div className='navbar__links__sign-up'>
-            <a href="/">Sign up</a>
+            <a href="#home">Sign up</a>
           </div>
         </div>
         <div className='navbar__links__mobile_open-btn'>
@@ -64,10 +64,10 @@ const Navbar = () => {
             </div>
             <div className='navbar__links__sign'>
               <div className='navbar__links__sign-in'>
-                <a href="/">Sign in</a>
+                <a href="#home" className='navbar__links__text'>Sign in</a>
               </div>
               <div className='navbar__links__sign-up'>
-                <a href="/">Sign up</a>
+                <a href="#home" className='navbar__links__text'>Sign up</a>
               </div>
             </div>
           </div>
